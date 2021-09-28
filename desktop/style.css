@@ -13,7 +13,9 @@ h1 {
 
 h2 {
     margin: 0px;
-    padding-top: 8px;
+    padding-top: 9px;
+    padding-left: 11px;
+
 }
 
 p {
@@ -22,7 +24,7 @@ p {
 
 footer {
     background-color: #0041ff;
-    height: 150px;
+    height: 160px;
     margin-top: 96px;
 }
 
@@ -36,6 +38,8 @@ footer {
 
 .redes-sociales {
     float: right;
+    padding-top: 60px;
+    padding-right: 80px;
 }
 
 .fa-twitter-square {
@@ -63,23 +67,16 @@ footer {
     text-decoration: none;
 }
 
-/* Ofertas */
-
-.container-ofertas {
-    float: left;
-}
-
-.titulo-ofertas {
-    background-color: #6A61D9;
-    height: 43px;
-    width: 300px;
-    color: white;
-}
-
 /* Tarjetas de productos */
 
 .container-tarjetas {
-    display: inline-block;
+    display: inline-table;
+    width: 284px; 
+}
+
+.nombre-producto {
+    text-align: center;
+    max-width: 50%;
 }
 
 .precio-anterior {
@@ -97,18 +94,47 @@ footer {
 .precio-actual {
     font-size: 24px;
     padding-left: 70px;
-    margin: 0px
+    margin: 0px;
 }
 
+/* Ofertas */
+
+.container-ofertas {
+    float: left;
+    padding-top: 70px;
+}
+
+.titulo-ofertas {
+    background-color: #6A61D9;
+    height: 45px;
+    width: 310px;
+    color: white;
+    margin-left: 66px;
+}
+
+.imagenes-ofertas {
+    height: 260px;
+}
+
+
 /* Productos mas vendidos */
+
+.container-mas-vendidos {
+    float: right;
+    width: 250px;
+}
 
 .imagenes-mas-vendidos {
     height: 150px;
 }
 
 .publicidad-vertical {
-    height: 605px;
-    width: 300px;
+    height: 639px;
+    width: 223px;
+}
+
+.publicidad-horizontal {
+    height: 115px;
 }
 
 
