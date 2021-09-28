@@ -35,31 +35,36 @@ footer {
     padding-top: 18px;
 }
 
-
 .redes-sociales {
     float: right;
     padding-top: 60px;
     padding-right: 80px;
 }
 
-.fa-twitter-square {
+.iconos {
+    margin: 3px;
     font-size: 32px;
     color: white;
 }
 
-.fa-instagram {
-    font-size: 32px;
-    color: white;
+/* Menu de navegacion */
+
+.menu-de-navegacion {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
 
-.fa-facebook-square {
-    font-size: 32px;
+.botones {
     color: white;
-}
-
-.fa-whatsapp {
-    font-size: 32px;
-    color: white;
+    background-color: rgb(255, 0, 0);
+    height: 33px;
+    width: 289px;
+    float: left;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .link-de-secciones {
@@ -102,6 +107,7 @@ footer {
 .container-ofertas {
     float: left;
     padding-top: 70px;
+    padding-left: 150px;
 }
 
 .titulo-ofertas {
@@ -109,7 +115,7 @@ footer {
     height: 45px;
     width: 310px;
     color: white;
-    margin-left: 66px;
+    margin-left: 13px;
 }
 
 .imagenes-ofertas {
@@ -122,6 +128,7 @@ footer {
 .container-mas-vendidos {
     float: right;
     width: 250px;
+    margin-top: 67px;
 }
 
 .imagenes-mas-vendidos {
@@ -131,10 +138,13 @@ footer {
 .publicidad-vertical {
     height: 639px;
     width: 223px;
+    margin-top: 67px;
 }
 
 .publicidad-horizontal {
     height: 115px;
+    margin-top: 50px;
+    margin-left: 63px;
 }
 
 
