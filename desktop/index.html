@@ -7,8 +7,168 @@
     <title>TGMS Project</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6d24bdaac8.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        h2 {
+            padding-top: 7px;
+            text-align: center;
+            margin: 7px;
+        }
+
+        p {
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Contenido del Header */
+        header {
+            background-color: #0041ff;
+            height: 167px;   
+        }
+
+        h1 {
+            display: inline-block;
+        }
+
+        .logo {
+            height: 135px;
+            padding-left: 97px;
+            padding-top: 18px;
+        }
+
+        .redes-sociales {
+            float: right;
+            padding-top: 60px;
+            padding-right: 80px;
+        }
+
+        .iconos {
+            margin: 3px;
+            font-size: 32px;
+            color: white;
+        }
+
+        /* Menu de navegacion */
+        .menu-de-navegacion {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        .botones {
+            color: white;
+            background-color: rgb(255, 0, 0);
+            width: 20%;
+            float: left;
+            line-height: 35px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        /* Tarjetas de productos */
+        .container-tarjetas {
+            display: inline-table;
+            width: 284px; 
+        }
+
+        .nombre-producto, .precio-actual{
+            text-align: center;
+        }
+
+        .precio-anterior {
+            display: inline;
+            padding-left: 70px;
+            color: #ABAAAA;
+            text-decoration-line: line-through;
+        }
+
+        .descuento {
+            display: inline;
+            color: #D80000;
+            margin: 15px;
+        }
+
+        .precio-actual {
+            font-size: 23px;
+            margin: 0px;
+        }
+
+        /* Ofertas */
+        .container-ofertas {
+            float: left;
+            padding-top: 47px;
+            padding-left: 150px;
+        }
+
+        .titulo-ofertas {
+            background-color: #3463f0;
+            height: 45px;
+            width: fit-content;
+            color: white;
+            margin-left: 13px;
+        }
+
+        .imagenes-ofertas {
+            height: 260px;
+        }
+
+        /* Productos mas vendidos */
+        .container-mas-vendidos {
+            float: right;
+            width: 250px;
+            padding-top: 37px;
+            padding-right: 24px;
+        }
+
+        .imagenes-mas-vendidos {
+            height: 150px;
+            padding-left: 50px;
+            padding-top: 22px;
+        }
+
+        .publicidad-vertical {
+            height: 666px;
+            width: 195px;
+            padding-top: 30px;
+            padding-left: 42px;
+        }
+
+        .publicidad-horizontal {
+            height: 115px;
+            padding-top: 50px;
+            padding-left: 63px;
+        }
+
+        /* Secciones */
+        h3 {
+            margin: 0px;
+            margin-top: 50px;
+            font-size: 1.50em;
+            padding-left: 13px;
+        }
+
+        .container-secciones {
+            padding-left: 23px;
+        }
+
+        .imagenes-secciones {
+            height: 250px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0041ff;
+            height: 160px;
+            margin-top: 96px;
+        }
+    </style>
+
 </head>
 <body>
+
     <header>
         <img src="/img/logo.jpg" alt="logo de la empresa: TGMS" class="logo">
         <h1>TGMS</h1>
@@ -19,6 +179,7 @@
             <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp iconos"></i></a>
         </div>
     </header>
+
     <main>
         <nav>
             <ul class="menu-de-navegacion">
@@ -29,6 +190,7 @@
                 <li><a href="#" class="botones">MAS CATEGORIAS</a></li>
             </ul>
         </nav>
+
         <div class="container-ofertas"> <!--CONTENEDOR PRINCIPAL OFERTAS-->
             <div class="titulo-ofertas">
                 <h2>LAS MEJORES OFERTAS</h2>
@@ -55,6 +217,7 @@
                 <p class="precio-actual">$ 49.999</p>
             </div> 
         </div>
+
         <aside class="container-mas-vendidos"> <!--CONTENEDOR PRINCIPAL MAS VENDIDOS-->
             <h2>PRODUCTOS MAS VENDIDOS</h2>
             <div> <!--TARJETA 1-->
@@ -82,10 +245,13 @@
                 <img src="/img/publicidad/publicidad4.png" alt="publicidad" class="publicidad-vertical">
             </div>
         </aside>
+
         <div> <!--CONTENEDOR PUBLICIDAD-->
             <img src="/img/publicidad/publicidad.png" alt="publicidad" class="publicidad-horizontal">
         </div>
+
         <div class="container-secciones"> <!--CONTENEDOR PRINCIPAL SECCIONES-->
+
             <section id="tv-audio-video"> <!--SECCION 1-->
                 <h3>TV, AUDIO Y VIDEO</h3>
                 <div class="container-tarjetas"> <!--TARJETA 1-->
@@ -117,6 +283,7 @@
                     <p class="precio-actual">$ 59.999</p>
                 </div>
             </section> 
+
             <section id="celulares"> <!--SECCION 2-->
                 <h3>CELULARES</h3>
                 <div class="container-tarjetas"> <!--TARJETA 1-->
@@ -148,6 +315,7 @@
                     <p class="precio-actual">$ 59.999</p>
                 </div>
             </section> 
+
             <section id="electrodomesticos"> <!--SECCION 3-->
                 <h3>ELECTRODOMESTICOS</h3>
                 <div class="container-tarjetas"> <!--TARJETA 1-->
@@ -178,7 +346,8 @@
                     <p class="descuento">17% OFF</p>
                     <p class="precio-actual">$ 59.999</p>
                 </div>
-            </section> 
+            </section>
+
         </div>
     </main>
     <footer>
