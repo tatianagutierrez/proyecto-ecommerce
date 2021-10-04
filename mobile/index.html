@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/97ad99b9c7.js" crossorigin="anonymous"></script>
+    <title> TGMS Project </title>
+    </head>
+
+<!--INICIO CSS-->
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+                list-style:none;
+                font-family:sans-serif;
+                }
+
+            #contenedor {
+                background-color: white;
+                height: 1700px;
+                width: 600px
+            }
+
+            #cabecera {
+                background-color: rgb(0, 64, 255);
+                height: 100px;
+            }
+
+            .logo {
+                height: 100px;
+                width: 130px;
+                position: absolute;
+                left: 30px;
+            }
+            
+            .botones{
+                color: white;
+                background-color: rgb(255, 0, 0);
+                height: 25px;
+                width: 120px;
+                float: left;
+                font-size: 10px;
+                line-height: 25px;
+                text-align: center;}
+            
+            .producto{
+                width: 150px;
+                height: 150px;}
+
+            .redes-sociales {
+                position: absolute ;
+                top: 38px;
+                left: 450px;
+            }
+            
+            .item .nombre-producto{
+                font-size: 13px;
+                align-content: center;
+            }
+            
+            .producto-container {
+                position: absolute;
+                left:132px;
+                top:115px;
+            }
+                
+            .item {
+                background-color: white;
+                width: 230px;
+                margin: 15px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 13px;}
+            
+            .descuento{
+                color: red;
+                font-weight: bold;
+            }
+
+            .precio-anterior {
+                color: #ABAAAA;
+                text-decoration-line: line-through;
+            }
+
+            h2 {
+                color: #0041ff;
+                padding-top: 5px;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            #icon{
+                color: white;
+                font-size: 25px;
+            }
+            .container-mas-vendidos {
+                float: right;
+                width: 138px;
+                padding-top: 24px;
+                padding-right: 30px;
+                text-align: center;
+            }
+            .imagenes-mas-vendidos {
+                height: 90px;
+                padding-top: 20px;
+            }
+            
+            .publicidad-vertical {
+                height: 150px;
+                width: 250px;
+            }
+            .publicidad-vertical2 {
+                height: 388px;
+                width: 141px;
+                margin-top: 52px;
+            }
+
+            footer {
+                background-color: #0041ff;
+                height: 100px;
+                margin-top: 1800px
+            }
+            
+            .logo-footer {
+                height: 90px;
+                padding-left: 90px;
+                float: left;
+            }
+
+            .desarrolladores {
+                font-size: 10px;
+                color: white;
+                padding-top: 40px;
+            }
+                
+        </style>
+<!--CIERRA CSS-->
+
+<!--INICIO HTML-->
+    <body>
+        <div id="contenedor">
+    
+<!-- Inicia Cabecera -->
+            <header id="cabecera">
+                <img class="logo" src="img/logos/Logo1.png" alt="Logo de la empresa: ICON TGMS">
+
+                <div class="redes-sociales">
+                <a href="https://twitter.com/" target="_blank"><i id="icon" class="fab fa-twitter-square"></i>
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><i id="icon" class="fab fa-instagram"></i>
+                <a href="https://es-la.facebook.com/" target="_blank"><i id="icon" class="fab fa-facebook-square"></i>
+                <a href="https://web.whatsapp.com/" target="_blank"><i id="icon" class="fab fa-whatsapp"></i>
+                </div>
+            </header>
+<!-- Cierra Cabecera -->
+
+<!-- Inicia Barra de Navegación -->
+            <nav>
+                <ul >
+                    <a ><li class="botones">OFERTAS</li></a>
+                    <a ><li class="botones">TV, AUDIO Y VIDEO</li></a>
+                    <a ><li class="botones">CELULARES</li></a>
+                    <a ><li class="botones">ELECTRODOMESTICOS</li></a>
+                    <a ><li class="botones">MAS CATEGORIAS</li></a>
+                </ul>
+            </nav>
+<!-- Cierra Barra de Navegación -->
+
+<!-- Inicia Contenedor Principal de Productos-->
+            <div class="producto-container">
+                <div class="item"> 
+                <img class="producto" src="img/productos/Auriculares.webp" alt="Auriculares">
+                <p class="nombre-producto">Auriculares Inalambricos Haylou Gt1</p>
+                <p class="precio-anterior">$ 2.799</p>
+                <p class="descuento">21% OFF</p>
+                <p class="precio-actual">$ 2.119</p>
+                </div>
+
+                <div class="item">
+                <img class="producto" src="img/productos/Celular.webp" alt="Celular">
+                <p class="nombre-producto">Celular Motorola G100 128 GB</p>
+                <p class="precio-anterior">$ 67.999</p>
+                <p class="descuento">26% OFF </p>
+                <p class="precio-actual">$ 79.999</p>
+                </div>
+
+                <div class="item"> 
+                <img class="producto" src="img/productos/Mouse.webp" alt="Mouse">
+                <p class="nombre-producto">Mouse Gamer Xtrike Me GM-510</p>
+                <p class="precio-anterior">$ 1.399</p>
+                <p class="descuento">47% OFF</p>
+                <p class="precio-actual">$ 729</p>
+                </div> 
+
+                <div class="item"> <img class="producto" src="img/productos/Notebook.webp" alt="Notebook">
+                <p class="nombre-producto">Notebook HP 14" 4GB 64GB Celeron N420 14-AX112LA</p>
+                <p class="precio-anterior">$ 67.999</p>
+                <p class="descuento">26% OFF</p>
+                <p class="precio-actual">$ 49.999</p>
+                </div> 
+
+                <!-- PUBLICIDAD-->
+                <img src="img/publicidad/Publicidad1.png" alt="publicidad" class="publicidad-vertical">
+                <!-- PUBLICIDAD-->
+
+                <div class="item"> <img class="producto" src="img/productos/Notebook2.webp" alt="Notebook2">
+                <p class="nombre-producto">Notebook Acer 13,5" Core i3 8GB 256GB SF313-53-318Z</p>
+                <p class="precio-anterior">$ 129.999</p>
+                <p class="descuento">19% OFF</p>
+                <p class="precio-actual">$ 104.999</p>
+                </div> 
+                <div class="item"> <img class="producto" src="img/productos/Televisor.webp" alt="Televisor">
+                <p class="nombre-producto">TCL Smart TV 50" 4K Ultra HD TCL L50P715-B</p>
+                <p class="precio-anterior">$ 72.999</p>
+                <p class="descuento">17% OFF</p>
+                <p class="precio-actual">$ 59.999</p>
+                </div> 
+            </div>
+<!-- Cierra Contenedor Principal de Productos-->
+
+<!-- Inicio Contenedor Lateral Derecho de Mas Vendidos-->
+            <aside class="container-mas-vendidos"> 
+                <h2>PRODUCTOS MAS VENDIDOS</h2>
+                <div>
+                    <img src="img/productos/Celular.webp" alt="imagen de celular" class="imagenes-mas-vendidos">
+                    <p class="nombre-producto">Celular</p>
+                    <p class="descuento"> 26% OFF</p>
+                </div> 
+
+                <div> 
+                    <img src="img/productos/Auriculares.webp" alt="imagen de celulares inalambricos" class="imagenes-mas-vendidos">
+                    <p class="nombre-producto">Auriculares</p>
+                    <p class="descuento">21% OFF</p>
+                </div> 
+
+                <div> 
+                    <img src="img/productos/Mouse.webp" alt="imagen de mouse" class="imagenes-mas-vendidos">
+                    <p class="nombre-producto">Mouse Gamer</p>
+                    <p class="descuento">47% OFF</p>
+                </div> 
+
+                <!-- PUBLICIDAD-->
+                    <img src="img/publicidad/Publicidad5.jpg" alt="publicidad" class="publicidad-vertical2">
+                <!-- PUBLICIDAD-->
+            </aside>
+<!-- Cierra Contenedor Lateral Derecho de Mas Vendidos-->
+
+<!-- Inicia Pie de Página -->
+            <footer class="footer">
+                <img src="img/logos/Footer.png" alt="logo de la empresa: TGMS" class="logo-footer">
+                <p class="desarrolladores">Tatiana Gutiérrez & Mauro Saks © Todos los derechos reservados</p>
+            </footer>
+<!-- Cierra Pie de Página -->
+
+        </div>
+    </body>
+<!--CIERRE HTML-->
+
+</html>
